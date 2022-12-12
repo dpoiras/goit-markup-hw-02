@@ -2,6 +2,7 @@
     --title-color: #212121;
     --text-color: #757575;
     --accent-color: #2196F3;
+    --accent-secondary-color: #188CE8;
     --white-color: #FFFFFF;
     --bg1-color: #F5F5F5;
     --bg2-color: #F5F4FA;
@@ -113,6 +114,11 @@ footer {
 
     cursor: pointer;
     border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-secondary-color);
 }
 
 /* features */
